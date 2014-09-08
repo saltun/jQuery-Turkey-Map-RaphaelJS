@@ -1,0 +1,64 @@
+/* 
+    Document   : Interactive Turkey Map with RaphaelJS
+    Version    : 0.5
+    Created on : 30.Aug.2012, 13:23:13
+    Author     : Selen GORA <goraselen@gmail.com - me@selengora.com>
+    Web        : selengora.com
+	
+	-------------------------
+	
+	Author: Taner DOGAN <http://tanerdogan.com - hello@tanerdogan.com>
+	Change Log: Added #detail
+	
+*/
+/* Demo page style begin*/
+body { 
+	background:#f3f3f3;
+	font:12px/18px 'Segoe UI','Lucida Grande',Verdana,Arial,Helvetica,sans-serif; line-height: 1.5em;
+	font-family:Calibri;
+	color:#47443f;
+	line-height: 1.5em;
+}
+a   {
+	color:#1669AD;
+}
+h1,p	{ 
+	text-align: center;
+	font-weight: normal;
+}
+/* Demo page style ends*/
+.container{
+	position:relative; /*for tooltip positions*/
+	width:1050px;
+	height:auto;
+	margin:0 auto;
+}
+
+#detail{
+	display:none;
+	position:absolute; /*for tooltip positions*/
+	width:1050px;
+	height:auto;
+	margin:0 auto;
+	background: #fff;
+	border-top:1px solid #1669AD;
+	border-bottom:3px solid #1669AD;
+	z-index:999;
+}
+#map {
+	clear:both;
+	width:1050px;
+	height:620px;
+	position:relative;
+	top:-100px; /* SVG image is starting with 130px top value so i used top:-100px  */	
+}
+#map svg {
+	position: relative;
+	top: 0px; 
+	left: 0px;
+}
+
+svg > a {
+	cursor: pointer;
+	display:block;
+}
