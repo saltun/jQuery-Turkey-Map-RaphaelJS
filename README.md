@@ -14,4 +14,5 @@ Seçili il seflink yapısına uygun bir şekilde türkçe karakterlerden arındırılmış 
 
 Author : Savaş Can Altun
 Mail : savascanaltun@gmail.com
-Web :  http://raphaeljs.com/ - http://savascanaltun.com.tr
+Web :  http://raphaeljs.com/ 
+Web : http://savascanaltun.com.tr
