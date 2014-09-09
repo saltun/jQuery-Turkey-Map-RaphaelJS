@@ -6,6 +6,8 @@
   ***
   Document   : Interactive Turkey Map with RaphaelJS
   Edited by Selen GORA <http://selengora.com - me@selengora.com>
+  
+  Edited turkish : Savaş Can ALTUN
 */
 
 var paths = {
